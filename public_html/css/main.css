@@ -1,0 +1,150 @@
+@import url(http://fonts.googleapis.com/css?family=Advent+Pro:600);
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,300,700,600);
+
+.jumbotron {
+    background-image: url(../img/jt_img.jpg);
+    width: 100%;
+    height: 620px;
+    background-size: cover;
+    padding: 0;
+    margin-bottom: -60px;
+}
+
+.layer2 {
+    background-color:rgba(150, 116, 101, 0.25);
+    width: 100%;
+    height: 620px;
+    margin: 0;
+}
+
+.affix-top {
+    position: static;
+}
+
+.layer2 .container {
+    text-align: left;
+    position: relative;
+    top: 22%;
+    bottom: auto;
+    padding-left: 4%;
+}
+
+.logo {
+    color: rgba(255, 255, 255, 0.7);
+    line-height: 6em;
+}
+
+.logo span {
+    font-family: 'Advent Pro', sans-serif;
+    font-size: 2.5em;
+    text-decoration: underline;
+    text-transform: uppercase;
+    padding: 0 15px;
+    vertical-align: middle;
+}
+
+.fa-camera-retro {
+    vertical-align: middle;
+}
+.layer2 .container h1 {
+    text-align: left;
+    color: rgba(255, 255, 255, 0.7);
+    font-family: 'Open Sans', sans-serif;
+    font-size: 46px;
+    padding-right: 28%;
+    margin-top: 5px;
+}
+
+.btn-primary {
+    border: 3.5px solid rgba(255, 255, 255, 0.6);
+    background-color: transparent;
+    background-image: none;
+    border-radius: 8px;
+    margin-top: 18px;
+    margin-bottom: 18px;
+    margin-right: 40px;
+    padding: 10px 22px;
+}
+
+.layer2 .container a {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.5em;
+    text-shadow: none;
+    color: rgba(255, 255, 255, 0.6)
+}
+
+.btn-primary:hover, .btn-primary:focus {
+    background-color: rgba(125, 177, 255, 0.6);
+    border-color: rgba(125, 177, 255, 0.1);
+    box-shadow: none;
+}
+
+.navbar {
+  border: none;
+  margin-bottom: 0;
+}
+
+.navbar-inverse {
+    background-color: rgba(0, 0, 0, 0.6);
+    background-image: none;
+    height: 60px;
+}
+
+.navbar-inverse .navbar-brand {
+    color: rgba(255, 255, 255, 0.8);
+    font-family: 'Advent Pro', sans-serif;
+    font-size: 22px;
+    text-transform: uppercase;
+    text-shadow: none;
+    display: inline-block;
+}
+
+.navbar-brand span {
+    color: rgba(125, 177, 255, 0.7);
+}
+
+.dash {
+    background-color: rgba(125, 177, 255, 0.7);
+    height: 3px;
+    margin-top: 2px;
+}
+
+.navbar-brand {
+    padding: 12px 0;
+}
+
+.navbar .container {
+    vertical-align: middle;
+    padding-top: 6px;
+    padding-bottom: 6px;
+}
+
+.navbar-inverse .navbar-nav>li>a {
+    text-shadow: none;
+    color: rgba(255, 255, 255, 0.7);
+    font-family: 'Open Sans', sans-serif;
+    text-transform: uppercase;
+    font-size: 1em;
+}
+
+
+.navbar-inverse .navbar-nav>.active>a {
+    background-image: none;
+    background-color: transparent;
+    box-shadow: none;
+    color: rgba(255, 255, 255, 1);
+}
+
+.navbar-inverse .navbar-nav>.active>a:hover {
+    background-image: none;
+    background-color: transparent;
+    box-shadow: none;
+    color: rgba(125, 177, 255, 1);
+}
+
+.navbar-inverse .navbar-nav>li>a:hover {
+    color: rgba(125, 177, 255, 1);
+}
+body {
+    padding: 0;
+}
