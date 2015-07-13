@@ -53,6 +53,7 @@
     font-size: 46px;
     padding-right: 28%;
     margin-top: 5px;
+    margin-bottom: 12px;
 }
 
 .btn-primary {
@@ -145,6 +146,49 @@
 .navbar-inverse .navbar-nav>li>a:hover {
     color: rgba(125, 177, 255, 1);
 }
+
 body {
     padding: 0;
 }
+
+h1 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 38px;
+    margin-top: 28px;
+    color: #352b29;
+}
+
+.animsition .container span {
+    border-bottom: 4px solid rgba(125, 177, 255, 1);
+    }
+
+p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 22px;
+    text-align: center;
+    font-weight: 300;
+    color: #5e5858;
+    }
+    
+    h3 {
+        text-align: center;
+        text-transform: uppercase;
+        font-size: 16px;
+    }
+    
+    .row .col-md-3 p {
+        font-size: 14px;
+    }
+    
+    .col-md-3 i {
+        margin-bottom: 16px;
+        color: #7db1ff;
+        margin-top: 16px;
+    }
+    
+    .row {
+        margin-left: 25px;
+        margin-right: 25px;
+    }
