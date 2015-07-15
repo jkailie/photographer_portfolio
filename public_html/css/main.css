@@ -7,7 +7,6 @@
     height: 620px;
     background-size: cover;
     padding: 0;
-    margin-bottom: -60px;
 }
 
 .layer2 {
@@ -19,6 +18,11 @@
 
 .affix-top {
     position: static;
+    margin-top: -90px;
+}
+
+.affix {
+    background-color:rgba(0, 0, 0, 1) !important;
 }
 
 .layer2 .container {
@@ -46,6 +50,7 @@
 .fa-camera-retro {
     vertical-align: middle;
 }
+
 .layer2 .container h1 {
     text-align: left;
     color: rgba(255, 255, 255, 0.7);
@@ -82,7 +87,6 @@
 
 .navbar {
   border: none;
-  margin-bottom: 0;
 }
 
 .navbar-inverse {
@@ -127,7 +131,6 @@
     text-transform: uppercase;
     font-size: 1em;
 }
-
 
 .navbar-inverse .navbar-nav>.active>a {
     background-image: none;
